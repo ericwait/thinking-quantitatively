@@ -1,10 +1,18 @@
 ---
-title: Thinking Quantitatively
+title: Understanding Image Analysis for Better Quantitative Experimental Design
 author: Eric Wait
-date: October 21, 2019
+date: October 22, 2019
+fontfamily: merriweather
+fontfamilyoptions: sfdefault
 ---
 
 ## Main Ideas
+
+- State a clear hypothesis or define a model
+- Understand the quantification that is needed to support hypothesis or confirm a model
+- Design a study that includes quantitative microscopy
+
+-----
 
 - The power of numbers as a summary device
 - Automation is key for:
