@@ -6,11 +6,53 @@ fontfamily: merriweather
 fontfamilyoptions: sfdefault
 ---
 
+## Quotes
+
+> Current limitations in bioimage-informatics techniques are preventing sophisticated optical methods from realiz-ing their full potential...
+> The kind of effort required to create a successful bioimage-informatics tool is different from that needed for success in conventional biological research...
+> But developing and providing ongoing support for user-friendly tools, although essential for bioimaging, presents challenges to funders and institutions[^unknown2012].
+
+> With sufficient support for bioimage informatics, we expect that the days of manually chosen "representative" images are numbered...
+> statistical rigor and clear reporting are critical. In their absence, quantification has limited value, and there is the risk that the mere act of such quantification could lead to false confidence in the results[^unknown2012].
+
+
+## Questions
+
+1. Battle between complexity and summarization.
+2. 
+
+----
+
 ## Main Ideas
 
 - State a clear hypothesis or define a model
 - Understand the quantification that is needed to support hypothesis or confirm a model
 - Design a study that includes quantitative microscopy
+- Establish settings and stick to them (homogeneous data collection for nubias and help analysis pipeline)
+
+## Techniques to consider
+
+- Spectral Unmixing
+- Deconvolution
+- Colocalization
+- FRET
+- FRAP
+- FLIM
+- Particle tracking
+- Sparse labeling
+- Distribution
+- Lineaging
+- Fission/fusion
+- Modeling
+
+## Nuances to be aware of
+
+- Non-linear operations
+- Need for fiducial
+- Speed of acquisition
+- Volume size
+- Resolution
+- Number of events
 
 -----
 
@@ -87,3 +129,6 @@ fontfamilyoptions: sfdefault
 	- Would other draw the same conclusions after seeing the data?
 	- Were the findings significant but not meaningful?
 		- For example, two conditions were statistically different, but the differences were below the resolution of the system?
+
+[^unknown2012]: The quest for quantitative microscopy. (2012, July). Nature Methods, 9(7), 627. <https://doi.org/10.1038/nmeth.2102>
+[^waters2009]: Waters, J. C. (2009, June 29). Accuracy and precision in quantitative fluorescence microscopy. Journal of Cell Biology, Vol. 185, pp. 1135–1148. <https://doi.org/10.1083/jcb.200903097>
